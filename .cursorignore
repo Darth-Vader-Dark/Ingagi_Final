@@ -1,0 +1,10 @@
+# Ignore build files, not envs
+node_modules/
+.next/
+build/
+out/
+*.log
+
+# Allow env files for editing
+!*.env.local
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
